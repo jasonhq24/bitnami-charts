@@ -17,6 +17,9 @@ global:
   imagePullSecrets: []
   storageClass: ""
 
+
+dnsNameservers: []
+
 ## @section Common parameters
 ##
 
