@@ -58,6 +58,9 @@ clusterDomain: cluster.local
 ## @param extraDeploy Array of extra objects to deploy with the release (evaluated as a template)
 ##
 extraDeploy: []
+
+dnsNameservers: []
+
 ## @param commonLabels Add labels to all the deployed resources
 ##
 commonLabels: {}
