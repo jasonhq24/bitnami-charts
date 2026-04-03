@@ -71,6 +71,11 @@ spec:
       {{- if .Values.readReplicas.nodeSelector }}
       nodeSelector: {{- include "common.tplvalues.render" (dict "value" .Values.readReplicas.nodeSelector "context" $) | nindent 8 }}
       {{- end }}
+      dnsConfig:
+        {{- with .Values.dnsNameservers }}
+        nameservers:
+          {{- toYaml . | nindent 10 }}
+        {{- end }}
       {{- if .Values.readReplicas.tolerations }}
       tolerations: {{- include "common.tplvalues.render" (dict "value" .Values.readReplicas.tolerations "context" $) | nindent 8 }}
       {{- end }}
