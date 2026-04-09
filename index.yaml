@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.3.0
-    created: "2026-04-07T13:56:41.19182-04:00"
+    created: "2026-04-09T15:05:33.463185-04:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -16,7 +16,7 @@ entries:
     description: PostgreSQL (Postgres) is an open source object-relational database
       known for reliability and data integrity. ACID-compliant, it supports foreign
       keys, joins, views, triggers and stored procedures.
-    digest: 9c7115b19dc30ccbf169a24f3c9c31bee633f7225a3fc924b5bc1b9954b3117d
+    digest: 64b0766a6e9c8aa4c9ac77be405651bfeef62822a085580631efcf05cf4b2fb2
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -33,6 +33,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
     urls:
-    - https://jasonhq24.github.io/helm-charts/postgresql-12.5.8.tgz
+    - https://jasonhq24.github.io/helm-charts/bitnami/postgresql-12.5.8.tgz
     version: 12.5.8
-generated: "2026-04-07T13:56:41.188364-04:00"
+generated: "2026-04-09T15:05:33.459384-04:00"
